@@ -1,0 +1,9 @@
+.title {
+  text-align: center;
+}
+
+.movie-list-container {
+  width: 100%;
+  padding-left: 1em;
+  padding-top: 1.4em;
+}

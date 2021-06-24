@@ -1,8 +1,50 @@
 .App {
   text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.new-movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  padding-top: 15%;
 }
 
-.App-logo {
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1.2em;
+}
+.input-group label {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+.new-movie input {
+  width: 40%;
+  padding: 0.6em;
+  border-radius: 2em;
+  border: black 2px solid;
+}
+
+.add-movie {
+  padding: 1.2em;
+  margin-top: 1.2em;
+  font-weight: bolder;
+  font-size: 1.2em;
+  border-radius: 1em;
+  background-color: rgb(155, 182, 231);
+}
+
+.list {
+  width: 60%;
+  padding-top: 2.4em;
+}
+
+.new-movie .App-logo {
   height: 40vmin;
   pointer-events: none;
 }

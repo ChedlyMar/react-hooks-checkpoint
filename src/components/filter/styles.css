@@ -1,0 +1,10 @@
+.filte-label {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+.filte-input {
+  width: 40%;
+  padding: 0.6em;
+  border-radius: 2em;
+  border: black 2px solid;
+}
