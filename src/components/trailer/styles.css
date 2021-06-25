@@ -1,0 +1,23 @@
+.trailer {
+  width: 100%;
+  margin: auto;
+}
+
+.trailer iframe {
+  width: 720px;
+  height: 420px;
+}
+
+p {
+  width: 720px;
+  padding: 1.2em;
+  margin: auto;
+}
+button {
+  padding: 1.2em;
+  margin-top: 1.2em;
+  font-weight: bolder;
+  font-size: 1.2em;
+  border-radius: 1em;
+  background-color: rgb(155, 182, 231);
+}

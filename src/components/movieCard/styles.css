@@ -17,3 +17,13 @@ img {
 .info {
   width: 70%;
 }
+Link {
+  text-decoration: none;
+}
+Link:focus,
+:hover,
+:visited,
+:link,
+:active {
+  text-decoration: none;
+}
