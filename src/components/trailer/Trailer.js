@@ -3,7 +3,7 @@ import "./styles.css";
 
 const Trailer = (props) => {
   let { id } = useParams();
-  let videoLink = props.movies.find((movie) => movie.id == id);
+  let videoLink = props.movies.find((movie) => movie.id === +id);
   return (
     <div className="trailer">
       <iframe title="trailer-video" src={videoLink.trailer}></iframe>
