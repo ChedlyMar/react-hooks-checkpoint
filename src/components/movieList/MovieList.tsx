@@ -1,11 +1,17 @@
 import "./styles.css";
 import MovieCard from "../movieCard/MovieCard";
+import { Movie } from "../../models/movie";
+import { FC } from "react";
 
-const MovieList = (props) => {
+interface Props {
+  movies: Movie[];
+}
+
+const MovieList: FC<Props> = ({ movies }) => {
   return (
     <div className="movie-list-container">
       <h2 className="title">Movie List:</h2>
-      {props.movies.map((movie) => (
+      {movies.map((movie) => (
         <MovieCard movie={movie} key={movie.id} />
       ))}
     </div>

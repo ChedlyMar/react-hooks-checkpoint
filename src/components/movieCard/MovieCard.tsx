@@ -1,7 +1,12 @@
 import "./styles.css";
+import { Movie } from "../../models/movie";
+import { FC } from "react";
 
-const MovieCard = (props) => {
-  const movie = props.movie;
+interface Props {
+  movie: Movie;
+}
+
+const MovieCard: FC<Props> = ({ movie }) => {
   return (
     <div className="container">
       <div className="img">
